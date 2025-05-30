@@ -1,0 +1,32 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/rfchip/cadence/verilog_larpix_rev2/modelsim
+vrf2p_512x64_4_50
+!s110 1596423069
+!i10b 1
+!s100 1a96gaLFg4Wf[Em:;5fh43
+I35L^?`SV`JIo@>oke^hdE3
+VDg1SIo80bB@j0V0VzS_@n1
+d/home/lxusers/c/crgrace/verilog/larpix_v2b/modelsim
+w1595907100
+8/home/lxusers/c/crgrace/verilog/larpix_v2b/modelsim/../ip/memory/rf_2p_512x64_4mux_50MHz/rf2p_512x64_4_50.v
+F/home/lxusers/c/crgrace/verilog/larpix_v2b/modelsim/../ip/memory/rf_2p_512x64_4mux_50MHz/rf2p_512x64_4_50.v
+L0 51
+OL;L;10.7c;67
+r1
+!s85 0
+31
+!s108 1596423069.000000
+!s107 /home/lxusers/c/crgrace/verilog/larpix_v2b/modelsim/../ip/memory/rf_2p_512x64_4mux_50MHz/rf2p_512x64_4_50.v|
+!s90 -reportprogress|300|-work|rf2p_512x64_4_50|/home/lxusers/c/crgrace/verilog/larpix_v2b/modelsim/../ip/memory/rf_2p_512x64_4mux_50MHz/rf2p_512x64_4_50.v|
+!i113 1
+o-work rf2p_512x64_4_50 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+tCvgOpt 0

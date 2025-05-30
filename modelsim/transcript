@@ -1,0 +1,722 @@
+# //  Questa Sim-64
+# //  Version 2024.1_2 linux_x86_64 Mar 28 2024
+# //
+# // Unpublished work. Copyright 2024 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# do verilog_tb.do
+# rtl
+# QuestaSim-64 vmap 2024.1_2 Lib Mapping Utility 2024.03 Mar 28 2024
+# vmap work 
+# Reading modelsim.ini
+# "work" maps to directory ./work. (Default mapping)
+# QuestaSim-64 vlog 2024.1_2 Compiler 2024.03 Mar 28 2024
+# Start time: 13:13:17 on May 30,2025
+# vlog -reportprogress 300 -incr -sv ../src/fifo_latch.sv 
+# -- Compiling module fifo_latch
+# 
+# Top level modules:
+# 	fifo_latch
+# End time: 13:13:17 on May 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.1_2 Compiler 2024.03 Mar 28 2024
+# Start time: 13:13:17 on May 30,2025
+# vlog -reportprogress 300 -incr -sv ../src/fifo_ff.sv 
+# -- Compiling module fifo_ff
+# 
+# Top level modules:
+# 	fifo_ff
+# End time: 13:13:17 on May 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.1_2 Compiler 2024.03 Mar 28 2024
+# Start time: 13:13:17 on May 30,2025
+# vlog -reportprogress 300 -incr -sv ../src/fifo_ram.sv 
+# -- Compiling module fifo_ram
+# 
+# Top level modules:
+# 	fifo_ram
+# End time: 13:13:17 on May 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.1_2 Compiler 2024.03 Mar 28 2024
+# Start time: 13:13:17 on May 30,2025
+# vlog -reportprogress 300 -incr -sv ../src/fifo_top.sv 
+# -- Compiling module fifo_top
+# 
+# Top level modules:
+# 	fifo_top
+# End time: 13:13:17 on May 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.1_2 Compiler 2024.03 Mar 28 2024
+# Start time: 13:13:17 on May 30,2025
+# vlog -reportprogress 300 -incr -sv ../src/gate_posedge_clk.sv 
+# -- Compiling module gate_posedge_clk
+# 
+# Top level modules:
+# 	gate_posedge_clk
+# End time: 13:13:17 on May 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.1_2 Compiler 2024.03 Mar 28 2024
+# Start time: 13:13:17 on May 30,2025
+# vlog -reportprogress 300 -incr -sv ../src/gate_negedge_clk.sv 
+# -- Compiling module gate_negedge_clk
+# 
+# Top level modules:
+# 	gate_negedge_clk
+# End time: 13:13:17 on May 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.1_2 Compiler 2024.03 Mar 28 2024
+# Start time: 13:13:17 on May 30,2025
+# vlog -reportprogress 300 "+incdir+../testbench/larpix_tasks/" -incr -sv ../src/config_regfile.sv 
+# -- Compiling module config_regfile
+# 
+# Top level modules:
+# 	config_regfile
+# End time: 13:13:17 on May 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.1_2 Compiler 2024.03 Mar 28 2024
+# Start time: 13:13:17 on May 30,2025
+# vlog -reportprogress 300 -incr -sv ../src/tff.sv 
+# -- Compiling module tff
+# 
+# Top level modules:
+# 	tff
+# End time: 13:13:17 on May 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.1_2 Compiler 2024.03 Mar 28 2024
+# Start time: 13:13:17 on May 30,2025
+# vlog -reportprogress 300 -incr -sv ../src/uart_rx.sv 
+# -- Compiling module uart_rx
+# 
+# Top level modules:
+# 	uart_rx
+# End time: 13:13:18 on May 30,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.1_2 Compiler 2024.03 Mar 28 2024
+# Start time: 13:13:18 on May 30,2025
+# vlog -reportprogress 300 -incr -sv ../src/uart_tx.sv 
+# -- Compiling module uart_tx
+# 
+# Top level modules:
+# 	uart_tx
+# End time: 13:13:18 on May 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.1_2 Compiler 2024.03 Mar 28 2024
+# Start time: 13:13:18 on May 30,2025
+# vlog -reportprogress 300 -incr -sv ../src/uart.sv 
+# -- Compiling module uart
+# 
+# Top level modules:
+# 	uart
+# End time: 13:13:18 on May 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.1_2 Compiler 2024.03 Mar 28 2024
+# Start time: 13:13:18 on May 30,2025
+# vlog -reportprogress 300 -incr ../src/event_router.sv 
+# ** Warning: ../src/event_router.sv(20): (vlog-13314) Defaulting port 'input_event' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# -- Compiling module event_router
+# 
+# Top level modules:
+# 	event_router
+# End time: 13:13:18 on May 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# QuestaSim-64 vlog 2024.1_2 Compiler 2024.03 Mar 28 2024
+# Start time: 13:13:18 on May 30,2025
+# vlog -reportprogress 300 -incr -sv ../src/fifo_rd_ctrl_async.sv 
+# -- Compiling module fifo_rd_ctrl_async
+# 
+# Top level modules:
+# 	fifo_rd_ctrl_async
+# End time: 13:13:18 on May 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.1_2 Compiler 2024.03 Mar 28 2024
+# Start time: 13:13:18 on May 30,2025
+# vlog -reportprogress 300 "+incdir+../testbench/larpix_tasks/" -incr -sv ../src/comms_ctrl.sv 
+# -- Compiling module comms_ctrl
+# 
+# Top level modules:
+# 	comms_ctrl
+# End time: 13:13:18 on May 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.1_2 Compiler 2024.03 Mar 28 2024
+# Start time: 13:13:18 on May 30,2025
+# vlog -reportprogress 300 -incr -sv ../src/hydra_ctrl.sv 
+# -- Compiling module hydra_ctrl
+# 
+# Top level modules:
+# 	hydra_ctrl
+# End time: 13:13:18 on May 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.1_2 Compiler 2024.03 Mar 28 2024
+# Start time: 13:13:18 on May 30,2025
+# vlog -reportprogress 300 -incr -sv ../src/channel_ctrl.sv 
+# -- Compiling module channel_ctrl
+# 
+# Top level modules:
+# 	channel_ctrl
+# End time: 13:13:18 on May 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.1_2 Compiler 2024.03 Mar 28 2024
+# Start time: 13:13:18 on May 30,2025
+# vlog -reportprogress 300 -incr -sv ../src/external_interface.sv 
+# -- Compiling module external_interface
+# 
+# Top level modules:
+# 	external_interface
+# End time: 13:13:18 on May 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.1_2 Compiler 2024.03 Mar 28 2024
+# Start time: 13:13:18 on May 30,2025
+# vlog -reportprogress 300 -incr -sv ../src/timestamp_gen.sv 
+# -- Compiling module timestamp_gen
+# 
+# Top level modules:
+# 	timestamp_gen
+# End time: 13:13:19 on May 30,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.1_2 Compiler 2024.03 Mar 28 2024
+# Start time: 13:13:19 on May 30,2025
+# vlog -reportprogress 300 -incr -sv ../src/async2sync.sv 
+# -- Compiling module async2sync
+# 
+# Top level modules:
+# 	async2sync
+# End time: 13:13:19 on May 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.1_2 Compiler 2024.03 Mar 28 2024
+# Start time: 13:13:19 on May 30,2025
+# vlog -reportprogress 300 -incr -sv ../src/periodic_pulser.sv 
+# -- Compiling module periodic_pulser
+# 
+# Top level modules:
+# 	periodic_pulser
+# End time: 13:13:19 on May 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.1_2 Compiler 2024.03 Mar 28 2024
+# Start time: 13:13:19 on May 30,2025
+# vlog -reportprogress 300 -incr -sv ../src/digital_monitor.sv 
+# -- Compiling module digital_monitor
+# 
+# Top level modules:
+# 	digital_monitor
+# End time: 13:13:19 on May 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.1_2 Compiler 2024.03 Mar 28 2024
+# Start time: 13:13:19 on May 30,2025
+# vlog -reportprogress 300 "+incdir+../testbench/larpix_tasks/" -incr -sv -L tsmc_tcb013ghp ../src/digital_core.sv 
+# -- Compiling module digital_core
+# 
+# Top level modules:
+# 	digital_core
+# End time: 13:13:19 on May 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.1_2 Compiler 2024.03 Mar 28 2024
+# Start time: 13:13:19 on May 30,2025
+# vlog -reportprogress 300 -incr -sv ../src/reset_sync.sv 
+# -- Compiling module reset_sync
+# 
+# Top level modules:
+# 	reset_sync
+# End time: 13:13:19 on May 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.1_2 Compiler 2024.03 Mar 28 2024
+# Start time: 13:13:19 on May 30,2025
+# vlog -reportprogress 300 -incr -vopt -sv ../testbench/unit_tests/fifo_tb.sv 
+# -- Compiling module fifo_tb
+# 
+# Top level modules:
+# 	fifo_tb
+# End time: 13:13:19 on May 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.1_2 Compiler 2024.03 Mar 28 2024
+# Start time: 13:13:19 on May 30,2025
+# vlog -reportprogress 300 -incr -vopt -sv ../testbench/unit_tests/fifo_burst_tb.sv 
+# -- Compiling module fifo_burst_tb
+# 
+# Top level modules:
+# 	fifo_burst_tb
+# End time: 13:13:19 on May 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.1_2 Compiler 2024.03 Mar 28 2024
+# Start time: 13:13:19 on May 30,2025
+# vlog -reportprogress 300 -incr -vopt -sv ../testbench/unit_tests/rf_2p_64x22_tb.sv 
+# -- Compiling module rf_2p_64x22_tb
+# 
+# Top level modules:
+# 	rf_2p_64x22_tb
+# End time: 13:13:19 on May 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.1_2 Compiler 2024.03 Mar 28 2024
+# Start time: 13:13:19 on May 30,2025
+# vlog -reportprogress 300 -incr -vopt -sv ../testbench/unit_tests/uart_tb.sv 
+# -- Compiling module uart_tb
+# 
+# Top level modules:
+# 	uart_tb
+# End time: 13:13:19 on May 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.1_2 Compiler 2024.03 Mar 28 2024
+# Start time: 13:13:19 on May 30,2025
+# vlog -reportprogress 300 "+incdir+../testbench/larpix_tasks/" -incr -vopt -sv ../testbench/unit_tests/channel_ctrl_tb.sv 
+# -- Compiling module channel_ctrl_tb
+# 
+# Top level modules:
+# 	channel_ctrl_tb
+# End time: 13:13:20 on May 30,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.1_2 Compiler 2024.03 Mar 28 2024
+# Start time: 13:13:20 on May 30,2025
+# vlog -reportprogress 300 -incr -vopt -sv ../testbench/unit_tests/timers_tb.sv 
+# -- Compiling module timers_tb
+# 
+# Top level modules:
+# 	timers_tb
+# End time: 13:13:20 on May 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.1_2 Compiler 2024.03 Mar 28 2024
+# Start time: 13:13:20 on May 30,2025
+# vlog -reportprogress 300 "+incdir+../testbench/larpix_tasks/" -incr -vopt ../testbench/unit_tests/external_interface_tb.sv 
+# -- Compiling module external_interface_tb
+# 
+# Top level modules:
+# 	external_interface_tb
+# End time: 13:13:20 on May 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.1_2 Compiler 2024.03 Mar 28 2024
+# Start time: 13:13:20 on May 30,2025
+# vlog -reportprogress 300 -incr -vopt ../testbench/digital_core_tb.v 
+# -- Compiling module digital_core_tb
+# 
+# Top level modules:
+# 	digital_core_tb
+# End time: 13:13:20 on May 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.1_2 Compiler 2024.03 Mar 28 2024
+# Start time: 13:13:20 on May 30,2025
+# vlog -reportprogress 300 "+incdir+../testbench/larpix_tasks/" -incr -vopt -sv ../testbench/unit_tests/larpix_single_tb.sv 
+# -- Compiling module larpix_single_tb
+# 
+# Top level modules:
+# 	larpix_single_tb
+# End time: 13:13:20 on May 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.1_2 Compiler 2024.03 Mar 28 2024
+# Start time: 13:13:20 on May 30,2025
+# vlog -reportprogress 300 "+incdir+../testbench/larpix_tasks/" -incr -vopt -sv ../testbench/unit_tests/larpix_hydra_tb.sv 
+# -- Compiling module larpix_hydra_tb
+# 
+# Top level modules:
+# 	larpix_hydra_tb
+# End time: 13:13:20 on May 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.1_2 Compiler 2024.03 Mar 28 2024
+# Start time: 13:13:20 on May 30,2025
+# vlog -reportprogress 300 -incr -sv ../testbench/unit_tests/uart_rx_fpga.sv 
+# -- Compiling module uart_rx_fpga
+# 
+# Top level modules:
+# 	uart_rx_fpga
+# End time: 13:13:20 on May 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.1_2 Compiler 2024.03 Mar 28 2024
+# Start time: 13:13:20 on May 30,2025
+# vlog -reportprogress 300 -incr -sv ../testbench/unit_tests/uart_tx_fpga.sv 
+# -- Compiling module uart_tx_fpga
+# 
+# Top level modules:
+# 	uart_tx_fpga
+# End time: 13:13:20 on May 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.1_2 Compiler 2024.03 Mar 28 2024
+# Start time: 13:13:20 on May 30,2025
+# vlog -reportprogress 300 -incr -vopt -sv ../testbench/analog_core/sar_async_adc.sv 
+# -- Compiling module sar_async_adc
+# 
+# Top level modules:
+# 	sar_async_adc
+# End time: 13:13:20 on May 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.1_2 Compiler 2024.03 Mar 28 2024
+# Start time: 13:13:20 on May 30,2025
+# vlog -reportprogress 300 -incr -vopt -sv ../testbench/analog_core/discriminator.sv 
+# -- Compiling module discriminator
+# 
+# Top level modules:
+# 	discriminator
+# End time: 13:13:20 on May 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.1_2 Compiler 2024.03 Mar 28 2024
+# Start time: 13:13:20 on May 30,2025
+# vlog -reportprogress 300 -incr -vopt -sv ../testbench/analog_core/csa.sv 
+# -- Compiling module csa
+# 
+# Top level modules:
+# 	csa
+# End time: 13:13:21 on May 30,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.1_2 Compiler 2024.03 Mar 28 2024
+# Start time: 13:13:21 on May 30,2025
+# vlog -reportprogress 300 -incr -vopt -sv ../testbench/analog_core/analog_channel.sv 
+# -- Compiling module analog_channel
+# 
+# Top level modules:
+# 	analog_channel
+# End time: 13:13:21 on May 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.1_2 Compiler 2024.03 Mar 28 2024
+# Start time: 13:13:21 on May 30,2025
+# vlog -reportprogress 300 -incr -vopt -sv ../testbench/analog_core/analog_core.sv 
+# -- Compiling module analog_core
+# 
+# Top level modules:
+# 	analog_core
+# End time: 13:13:21 on May 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.1_2 Compiler 2024.03 Mar 28 2024
+# Start time: 13:13:21 on May 30,2025
+# vlog -reportprogress 300 -incr -vopt -sv ../testbench/larpix_v3/larpix_v3.sv 
+# -- Compiling module larpix_v3
+# 
+# Top level modules:
+# 	larpix_v3
+# End time: 13:13:21 on May 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.1_2 Compiler 2024.03 Mar 28 2024
+# Start time: 13:13:21 on May 30,2025
+# vlog -reportprogress 300 "+incdir+../testbench/larpix_tasks/" -vopt -incr ../testbench/mcp/mcp_external_interface.sv 
+# -- Compiling module mcp_external_interface
+# 
+# Top level modules:
+# 	mcp_external_interface
+# End time: 13:13:21 on May 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.1_2 Compiler 2024.03 Mar 28 2024
+# Start time: 13:13:21 on May 30,2025
+# vlog -reportprogress 300 "+incdir+../testbench/larpix_tasks/" -vopt -incr ../testbench/mcp/mcp_larpix_single.sv 
+# -- Compiling module mcp_larpix_single
+# 
+# Top level modules:
+# 	mcp_larpix_single
+# End time: 13:13:21 on May 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.1_2 Compiler 2024.03 Mar 28 2024
+# Start time: 13:13:21 on May 30,2025
+# vlog -reportprogress 300 "+incdir+../testbench/larpix_tasks/" -vopt -incr ../testbench/mcp/mcp_larpix_hydra.sv 
+# -- Compiling module mcp_larpix_hydra
+# 
+# Top level modules:
+# 	mcp_larpix_hydra
+# End time: 13:13:21 on May 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.1_2 Compiler 2024.03 Mar 28 2024
+# Start time: 13:13:21 on May 30,2025
+# vlog -reportprogress 300 "+incdir+../testbench/larpix_tasks/" -vopt -incr ../testbench/mcp/mcp.sv 
+# -- Compiling module mcp
+# 
+# Top level modules:
+# 	mcp
+# End time: 13:13:21 on May 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -L tsmc_tcb013ghp larpix_single_tb -vopt -voptargs=""+acc=npr"" 
+# Start time: 13:13:21 on May 30,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Warning: ../src/event_router.sv(20): (vopt-13314) Defaulting port 'input_event' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=2.
+# Loading sv_std.std
+# Loading work.larpix_single_tb(fast)
+# Loading work.mcp_larpix_single(fast)
+# Loading work.uart_tx_fpga(fast)
+# Loading work.uart_rx_fpga(fast)
+# Loading work.larpix_v3(fast)
+# Loading work.analog_core(fast)
+# Loading work.analog_channel(fast)
+# Loading work.csa(fast)
+# Loading work.discriminator(fast)
+# Loading work.sar_async_adc(fast)
+# Loading work.digital_core(fast)
+# Loading work.channel_ctrl(fast)
+# Loading work.gate_posedge_clk(fast)
+# Loading tsmc_tcb013ghp.CKLNQD8(fast)
+# Loading work.fifo_latch(fast)
+# Loading work.gate_negedge_clk(fast)
+# Loading tsmc_tcb013ghp.CKLHQD4(fast)
+# Loading work.event_router(fast)
+# Loading work.fifo_top(fast)
+# Loading work.fifo_latch(fast__1)
+# Loading work.external_interface(fast)
+# Loading work.uart(fast)
+# Loading work.uart_tx(fast)
+# Loading work.uart_rx(fast)
+# Loading work.hydra_ctrl(fast)
+# Loading work.comms_ctrl(fast)
+# Loading work.fifo_rd_ctrl_async(fast)
+# Loading work.config_regfile(fast)
+# Loading work.timestamp_gen(fast)
+# Loading work.reset_sync(fast)
+# Loading work.async2sync(fast)
+# Loading work.periodic_pulser(fast)
+# Loading work.periodic_pulser(fast__1)
+# Loading work.digital_monitor(fast)
+run 10ms
+# 
+# --------------------
+# 
+# RESET COMPLETE
+# RUNNING LARPIX_MINIMAL.MCP
+# write 10d to GLOBAL_THRESH
+# Enable FIFO diagnostics
+# Enable Downstream PISO0 (for returning data to FPGA)
+# Read Back test: 10d/0x0A expected
+# enable channels 0 - 7 (enable CSA)
+# enable channels 0-7 (turn off channel mask)
+# 
+# --------------------
+# 
+# Data Received: c22541391c290007
+# Packet Number: 1
+# Parity Bit = 1
+# Expected Parity Bit = 1
+# Parity good.
+# configuration read
+# Chip ID =   1
+# register map address =  64
+# register map data =  10
+# fifo half bit = 0
+# fifo full bit = 0
+# local fifo half bit = 0
+# local fifo full bit = 0
+# magic number = 89504e47
+# marker bit = 1
+# 
+# --------------------
+# 
+# Read Back test: 255d/0xFF expected
+# charge deposition in channel           0
+# charge deposition in channel           1
+# charge deposition in channel           2
+# charge deposition in channel           3
+# charge deposition in channel           4
+# charge deposition in channel           5
+# charge deposition in channel           6
+# charge deposition in channel           7
+# charge deposition in channel           0
+# charge deposition in channel           1
+# charge deposition in channel           2
+# charge deposition in channel           3
+# charge deposition in channel           4
+# charge deposition in channel           5
+# charge deposition in channel           6
+# charge deposition in channel           7
+# 
+# --------------------
+# 
+# Data Received: 422541391ffd0807
+# Packet Number: 2
+# Parity Bit = 0
+# Expected Parity Bit = 0
+# Parity good.
+# configuration read
+# Chip ID =   1
+# register map address =  66
+# register map data = 255
+# fifo half bit = 0
+# fifo full bit = 0
+# local fifo half bit = 0
+# local fifo full bit = 0
+# magic number = 89504e47
+# marker bit = 1
+# 
+# --------------------
+# 
+# 
+# --------------------
+# 
+# Data Received: c070000103450005
+# Packet Number: 3
+# Parity Bit = 1
+# Expected Parity Bit = 1
+# Parity good.
+# data packet
+# Chip ID =   1
+# Channel ID =  0
+# time stamp (hex) = 0010345
+# local fifo counter (if configured) = 0
+# fifo counter (if configured) =    1
+# reset_sample_flag = 0
+# cds_mode_flag = 0
+# data word =  448
+# trigger_type = NATURAL
+# total packet tally =  0
+# downstream marker bit = 1
+# 
+# --------------------
+# 
+# 
+# --------------------
+# 
+# Data Received: 4070000203450405
+# Packet Number: 4
+# Parity Bit = 0
+# Expected Parity Bit = 0
+# Parity good.
+# data packet
+# Chip ID =   1
+# Channel ID =  1
+# time stamp (hex) = 0020345
+# local fifo counter (if configured) = 0
+# fifo counter (if configured) =    2
+# reset_sample_flag = 0
+# cds_mode_flag = 0
+# data word =  448
+# trigger_type = NATURAL
+# total packet tally =  0
+# downstream marker bit = 1
+# 
+# --------------------
+# 
+# 
+# --------------------
+# 
+# Data Received: c070000303450805
+# Packet Number: 5
+# Parity Bit = 1
+# Expected Parity Bit = 1
+# Parity good.
+# data packet
+# Chip ID =   1
+# Channel ID =  2
+# time stamp (hex) = 0030345
+# local fifo counter (if configured) = 0
+# fifo counter (if configured) =    3
+# reset_sample_flag = 0
+# cds_mode_flag = 0
+# data word =  448
+# trigger_type = NATURAL
+# total packet tally =  0
+# downstream marker bit = 1
+# 
+# --------------------
+# 
+# 
+# --------------------
+# 
+# Data Received: c070000403450c05
+# Packet Number: 6
+# Parity Bit = 1
+# Expected Parity Bit = 1
+# Parity good.
+# data packet
+# Chip ID =   1
+# Channel ID =  3
+# time stamp (hex) = 0040345
+# local fifo counter (if configured) = 0
+# fifo counter (if configured) =    4
+# reset_sample_flag = 0
+# cds_mode_flag = 0
+# data word =  448
+# trigger_type = NATURAL
+# total packet tally =  0
+# downstream marker bit = 1
+# 
+# --------------------
+# 
+# 
+# --------------------
+# 
+# Data Received: c070000503451005
+# Packet Number: 7
+# Parity Bit = 1
+# Expected Parity Bit = 1
+# Parity good.
+# data packet
+# Chip ID =   1
+# Channel ID =  4
+# time stamp (hex) = 0050345
+# local fifo counter (if configured) = 0
+# fifo counter (if configured) =    5
+# reset_sample_flag = 0
+# cds_mode_flag = 0
+# data word =  448
+# trigger_type = NATURAL
+# total packet tally =  0
+# downstream marker bit = 1
+# 
+# --------------------
+# 
+# 
+# --------------------
+# 
+# Data Received: 4070000603451405
+# Packet Number: 8
+# Parity Bit = 0
+# Expected Parity Bit = 0
+# Parity good.
+# data packet
+# Chip ID =   1
+# Channel ID =  5
+# time stamp (hex) = 0060345
+# local fifo counter (if configured) = 0
+# fifo counter (if configured) =    6
+# reset_sample_flag = 0
+# cds_mode_flag = 0
+# data word =  448
+# trigger_type = NATURAL
+# total packet tally =  0
+# downstream marker bit = 1
+# 
+# --------------------
+# 
+# 
+# --------------------
+# 
+# Data Received: c070000703451805
+# Packet Number: 9
+# Parity Bit = 1
+# Expected Parity Bit = 1
+# Parity good.
+# data packet
+# Chip ID =   1
+# Channel ID =  6
+# time stamp (hex) = 0070345
+# local fifo counter (if configured) = 0
+# fifo counter (if configured) =    7
+# reset_sample_flag = 0
+# cds_mode_flag = 0
+# data word =  448
+# trigger_type = NATURAL
+# total packet tally =  0
+# downstream marker bit = 1
+# 
+# --------------------
+# 
+# 
+# --------------------
+# 
+# Data Received: 4070000803451c05
+# Packet Number: 10
+# Parity Bit = 0
+# Expected Parity Bit = 0
+# Parity good.
+# data packet
+# Chip ID =   1
+# Channel ID =  7
+# time stamp (hex) = 0080345
+# local fifo counter (if configured) = 0
+# fifo counter (if configured) =    8
+# reset_sample_flag = 0
+# cds_mode_flag = 0
+# data word =  448
+# trigger_type = NATURAL
+# total packet tally =  0
+# downstream marker bit = 1
+# 
+# --------------------
+# 
